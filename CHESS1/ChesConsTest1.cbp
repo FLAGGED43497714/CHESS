@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ChesConsTest1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ChesConsTest1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ChesConsTest1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/BishopLegal.h" />
+		<Unit filename="include/Check.h" />
+		<Unit filename="include/KingLegal.h" />
+		<Unit filename="include/KnightLegal.h" />
+		<Unit filename="include/MoveInstructions.h" />
+		<Unit filename="include/PawnLegal.h" />
+		<Unit filename="include/PieceValue.h" />
+		<Unit filename="include/RookLegal.h" />
+		<Unit filename="include/UpdateBoard.h" />
+		<Unit filename="include/boardEval.h" />
+		<Unit filename="include/coutBoard.h" />
+		<Unit filename="include/initboard.h" />
+		<Unit filename="include/legal.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/BishopLegal.cpp" />
+		<Unit filename="src/Check.cpp" />
+		<Unit filename="src/KingLegal.cpp" />
+		<Unit filename="src/KnightLegal.cpp" />
+		<Unit filename="src/MoveInstructions.cpp" />
+		<Unit filename="src/PawnLegal.cpp" />
+		<Unit filename="src/PieceValue.cpp" />
+		<Unit filename="src/RookLegal.cpp" />
+		<Unit filename="src/UpdateBoard.cpp" />
+		<Unit filename="src/boardEval.cpp" />
+		<Unit filename="src/coutBoard.cpp" />
+		<Unit filename="src/initboard.cpp" />
+		<Unit filename="src/legal.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

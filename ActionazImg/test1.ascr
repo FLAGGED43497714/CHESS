@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scriptfile>
+    <settings program="actiona" version="3.9.0" scriptVersion="1.1.0" os="Windows"/>
+    <actions>
+        <action name="ActionFindImage" version="1.1.0"/>
+        <action name="ActionMessageBox" version="1.0.0"/>
+        <action name="ActionPause" version="1.0.0"/>
+        <action name="ActionMoveCursor" version="1.0.0"/>
+        <action name="ActionVariable" version="1.0.0"/>
+    </actions>
+    <parameters/>
+    <resources/>
+    <script pauseBefore="0" pauseAfter="0">
+        <action name="ActionVariable">
+            <exception id="32" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="colorValue">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="positionValue">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="variable">
+                <subParameter name="value" code="0">wasPos</subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">position</subParameter>
+            </parameter>
+            <parameter name="value">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionFindImage">
+            <exception id="32" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifFound">
+                <subParameter name="line" code="0">005</subParameter>
+                <subParameter name="action" code="0">goto</subParameter>
+            </parameter>
+            <parameter name="confidenceMinimum">
+                <subParameter name="value" code="0">90</subParameter>
+            </parameter>
+            <parameter name="source">
+                <subParameter name="value" code="0">screenshot</subParameter>
+            </parameter>
+            <parameter name="windowName">
+                <subParameter name="value" code="0">Échiquier d’analyse et éditeur PGN - Chess.com - Google Chrome</subParameter>
+            </parameter>
+            <parameter name="imageToFind">
+                <subParameter name="value" code="0">C:/Users/balth/C++/ChesConsTest1/ActionazImg/wasPosClair.png</subParameter>
+            </parameter>
+            <parameter name="imageToSearchIn">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="maximumMatches">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="ifNotFound">
+                <subParameter name="line" code="0">004</subParameter>
+                <subParameter name="action" code="0">goto</subParameter>
+            </parameter>
+            <parameter name="windowRelativePosition">
+                <subParameter name="value" code="0">true</subParameter>
+            </parameter>
+            <parameter name="downPyramidCount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="searchDelay">
+                <subParameter name="value" code="0">100</subParameter>
+            </parameter>
+            <parameter name="confidence">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="searchExpansion">
+                <subParameter name="value" code="0">15</subParameter>
+            </parameter>
+            <parameter name="method">
+                <subParameter name="value" code="0">correlationcoefficient</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0">wasPos</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionFindImage">
+            <exception id="32" action="0" line=""/>
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifFound">
+                <subParameter name="line" code="0">005</subParameter>
+                <subParameter name="action" code="0">goto</subParameter>
+            </parameter>
+            <parameter name="confidenceMinimum">
+                <subParameter name="value" code="0">90</subParameter>
+            </parameter>
+            <parameter name="source">
+                <subParameter name="value" code="0">screenshot</subParameter>
+            </parameter>
+            <parameter name="windowName">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="imageToFind">
+                <subParameter name="value" code="0">C:/Users/balth/C++/ChesConsTest1/ActionazImg/wasPosFonc.png</subParameter>
+            </parameter>
+            <parameter name="imageToSearchIn">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="maximumMatches">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="ifNotFound">
+                <subParameter name="line" code="0">003</subParameter>
+                <subParameter name="action" code="0">goto</subParameter>
+            </parameter>
+            <parameter name="windowRelativePosition">
+                <subParameter name="value" code="0">false</subParameter>
+            </parameter>
+            <parameter name="downPyramidCount">
+                <subParameter name="value" code="0">1</subParameter>
+            </parameter>
+            <parameter name="searchDelay">
+                <subParameter name="value" code="0">100</subParameter>
+            </parameter>
+            <parameter name="confidence">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="searchExpansion">
+                <subParameter name="value" code="0">15</subParameter>
+            </parameter>
+            <parameter name="method">
+                <subParameter name="value" code="0">correlationcoefficient</subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="value" code="0">wasPos</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMoveCursor">
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="positionOffset">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="position">
+                <subParameter name="unit" code="0">0</subParameter>
+                <subParameter name="value" code="1">wasPos</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionPause">
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="duration">
+                <subParameter name="value" code="0">5</subParameter>
+            </parameter>
+            <parameter name="unit">
+                <subParameter name="value" code="0">seconds</subParameter>
+            </parameter>
+        </action>
+        <action name="ActionMessageBox">
+            <exception id="1" action="0" line=""/>
+            <exception id="0" action="0" line=""/>
+            <exception id="2" action="1" line=""/>
+            <parameter name="ifYes">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+            <parameter name="title">
+                <subParameter name="value" code="0">test</subParameter>
+            </parameter>
+            <parameter name="icon">
+                <subParameter name="value" code="0">none</subParameter>
+            </parameter>
+            <parameter name="windowIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="type">
+                <subParameter name="value" code="0">ok</subParameter>
+            </parameter>
+            <parameter name="message">
+                <subParameter name="value" code="0">$wasPos</subParameter>
+            </parameter>
+            <parameter name="customIcon">
+                <subParameter name="value" code="0"></subParameter>
+            </parameter>
+            <parameter name="ifNo">
+                <subParameter name="line" code="0"></subParameter>
+                <subParameter name="action" code="0">do_nothing</subParameter>
+            </parameter>
+            <parameter name="textMode">
+                <subParameter name="value" code="0">automatic</subParameter>
+            </parameter>
+        </action>
+    </script>
+</scriptfile>

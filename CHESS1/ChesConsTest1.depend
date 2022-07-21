@@ -1,0 +1,299 @@
+# depslib dependency file v1.0
+1645785954 source:c:\users\balth\c++\chesconstest1\main.cpp
+	<iostream>
+	<string>
+	<coutBoard.h>
+	<initboard.h>
+	<UpdateBoard.h>
+	<legal.h>
+	<stdlib.h>
+	<unistd.h>
+	"Check.h"
+	<MoveInstructions.h>
+
+1645520720 source:c:\users\balth\c++\chesconstest1\src\coutboard.cpp
+	"coutBoard.h"
+	<string>
+	<iostream>
+
+1645472178 c:\users\balth\c++\chesconstest1\include\coutboard.h
+	<string>
+
+1645484263 c:\users\balth\c++\chesconstest1\include\initboard.h
+	<string>
+
+1645526796 source:c:\users\balth\c++\chesconstest1\src\initboard.cpp
+	"initboard.h"
+	<string>
+
+1645705196 source:c:\users\balth\c++\chesconstest1\src\updateboard.cpp
+	"UpdateBoard.h"
+	<string>
+	<cstring>
+	"MoveInstructions.h"
+
+1645706226 c:\users\balth\c++\chesconstest1\include\updateboard.h
+	<string>
+
+1645785895 source:c:\users\balth\c++\chesconstest1\src\legal.cpp
+	"legal.h"
+	"MoveInstructions.h"
+	"Check.h"
+	"RookLegal.h"
+	"BishopLegal.h"
+	"KnightLegal.h"
+	"PawnLegal.h"
+	"KingLegal.h"
+	<string>
+	<iostream>
+	<unistd.h>
+	<vector>
+
+1645740969 c:\users\balth\c++\chesconstest1\include\legal.h
+	<string>
+	<vector>
+
+1645561516 source:c:\users\balth\c++\chesconstest1\src\moveinstructions.cpp
+	"MoveInstructions.h"
+	<string>
+
+1645561508 c:\users\balth\c++\chesconstest1\include\moveinstructions.h
+	<string>
+
+1645784030 source:c:\users\balth\c++\chesconstest1\src\rooklegal.cpp
+	"RookLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645787435 c:\users\balth\c++\chesconstest1\include\rooklegal.h
+	<string>
+	<vector>
+
+1645784124 source:c:\users\balth\c++\chesconstest1\src\bishoplegal.cpp
+	"BishopLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645784140 c:\users\balth\c++\chesconstest1\include\bishoplegal.h
+	<string>
+	<vector>
+
+1645784294 source:c:\users\balth\c++\chesconstest1\src\knightlegal.cpp
+	"KnightLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645784337 c:\users\balth\c++\chesconstest1\include\knightlegal.h
+	<string>
+	<vector>
+
+1645784656 c:\users\balth\c++\chesconstest1\include\pawnlegal.h
+	<string>
+	<vector>
+	<iostream>
+
+1645784614 source:c:\users\balth\c++\chesconstest1\src\pawnlegal.cpp
+	"PawnLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645784433 source:c:\users\balth\c++\chesconstest1\src\kinglegal.cpp
+	"KingLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645784454 c:\users\balth\c++\chesconstest1\include\kinglegal.h
+	<string>
+	<vector>
+
+1645785588 source:c:\users\balth\c++\chesconstest1\src\check.cpp
+	"Check.h"
+	"legal.h"
+	"MoveInstructions.h"
+	"UpdateBoard.h"
+	"coutBoard.h"
+	<unistd.h>
+	<string>
+	<iostream>
+
+1645782611 c:\users\balth\c++\chesconstest1\include\check.h
+	<string>
+	<iostream>
+
+1651145026 source:c:\users\balth\c++\chesconstest1\chess1\main.cpp
+	<iostream>
+	<string>
+	<coutBoard.h>
+	<initboard.h>
+	<UpdateBoard.h>
+	<legal.h>
+	<stdlib.h>
+	<unistd.h>
+	<math.h>
+	<chrono>
+	"boardEval.h"
+	"Check.h"
+	<MoveInstructions.h>
+
+1645475778 c:\users\balth\c++\chesconstest1\chess1\include\coutboard.h
+	<string>
+
+1645826779 c:\users\balth\c++\chesconstest1\chess1\include\initboard.h
+	<string>
+
+1647426550 c:\users\balth\c++\chesconstest1\chess1\include\updateboard.h
+	<string>
+
+1646433858 c:\users\balth\c++\chesconstest1\chess1\include\legal.h
+	<string>
+	<vector>
+
+1646997719 c:\users\balth\c++\chesconstest1\chess1\include\check.h
+	<string>
+	<iostream>
+	<vector>
+
+1645565108 c:\users\balth\c++\chesconstest1\chess1\include\moveinstructions.h
+	<string>
+
+1645787724 source:c:\users\balth\c++\chesconstest1\chess1\src\bishoplegal.cpp
+	"BishopLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645787740 c:\users\balth\c++\chesconstest1\chess1\include\bishoplegal.h
+	<string>
+	<vector>
+
+1646997629 source:c:\users\balth\c++\chesconstest1\chess1\src\check.cpp
+	"Check.h"
+	"legal.h"
+	"MoveInstructions.h"
+	"UpdateBoard.h"
+	"coutBoard.h"
+	<unistd.h>
+	<string>
+	<iostream>
+
+1645524320 source:c:\users\balth\c++\chesconstest1\chess1\src\coutboard.cpp
+	"coutBoard.h"
+	<string>
+	<iostream>
+
+1645828500 source:c:\users\balth\c++\chesconstest1\chess1\src\initboard.cpp
+	"initboard.h"
+	<string>
+	<iostream>
+
+1647457536 source:c:\users\balth\c++\chesconstest1\chess1\src\kinglegal.cpp
+	"KingLegal.h"
+	"Check.h"
+	"UpdateBoard.h"
+	<string>
+	<vector>
+	<iostream>
+	<unistd.h>
+
+1647457439 c:\users\balth\c++\chesconstest1\chess1\include\kinglegal.h
+	<string>
+	<vector>
+
+1645787894 source:c:\users\balth\c++\chesconstest1\chess1\src\knightlegal.cpp
+	"KnightLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1645787937 c:\users\balth\c++\chesconstest1\chess1\include\knightlegal.h
+	<string>
+	<vector>
+
+1651087812 source:c:\users\balth\c++\chesconstest1\chess1\src\legal.cpp
+	"legal.h"
+	"MoveInstructions.h"
+	"Check.h"
+	"RookLegal.h"
+	"BishopLegal.h"
+	"KnightLegal.h"
+	"PawnLegal.h"
+	"KingLegal.h"
+	"PieceValue.h"
+	<string>
+	<iostream>
+	<unistd.h>
+	<vector>
+	<algorithm>
+
+1645791035 c:\users\balth\c++\chesconstest1\chess1\include\rooklegal.h
+	<string>
+	<vector>
+
+1645788256 c:\users\balth\c++\chesconstest1\chess1\include\pawnlegal.h
+	<string>
+	<vector>
+	<iostream>
+
+1645565116 source:c:\users\balth\c++\chesconstest1\chess1\src\moveinstructions.cpp
+	"MoveInstructions.h"
+	<string>
+
+1647457083 source:c:\users\balth\c++\chesconstest1\chess1\src\pawnlegal.cpp
+	"PawnLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+	<unistd.h>
+
+1647453993 source:c:\users\balth\c++\chesconstest1\chess1\src\rooklegal.cpp
+	"RookLegal.h"
+	"Check.h"
+	<string>
+	<vector>
+	<iostream>
+
+1647457117 source:c:\users\balth\c++\chesconstest1\chess1\src\updateboard.cpp
+	"UpdateBoard.h"
+	<string>
+	<cstring>
+	<cstdlib>
+	"MoveInstructions.h"
+	"iostream"
+	"unistd.h"
+	"coutBoard.h"
+
+1647458765 source:c:\users\balth\c++\chesconstest1\chess1\src\boardeval.cpp
+	"boardEval.h"
+	"UpdateBoard.h"
+	"legal.h"
+	"PieceValue.h"
+	<iostream>
+	<string>
+	<unistd.h>
+	<cmath>
+	<coutBoard.h>
+	<Check.h>
+	<MoveInstructions.h>
+
+1647426155 c:\users\balth\c++\chesconstest1\chess1\include\boardeval.h
+	<string>
+	<vector>
+
+1646327475 c:\users\balth\c++\chesconstest1\chess1\include\piecevalue.h
+
+1647459010 source:c:\users\balth\c++\chesconstest1\chess1\src\piecevalue.cpp
+	"PieceValue.h"
+

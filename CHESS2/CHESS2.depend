@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1657039641 source:c:\users\balth\c++\chesconstest1\chess2\main.cpp
+	"Game.h"
+	"initBoard.h"
+	"MakeMove.h"
+	"LegalMoves.h"
+	"coutBoard.h"
+	"BitwiseFunction.h"
+	"SqNameToNb.h"
+	"Eval.h"
+	<string>
+	<iostream>
+	<vector>
+	<bitset>
+	<unordered_map>
+
+1648586334 c:\users\balth\c++\chesconstest1\chess2\include\coutboard.h
+	<bitset>
+
+1648586279 source:c:\users\balth\c++\chesconstest1\chess2\src\coutboard.cpp
+	"coutBoard.h"
+	<bitset>
+	<iostream>
+
+1648471199 source:c:\users\balth\c++\chesconstest1\chess2\src\initboard.cpp
+	"initBoard.h"
+	<vector>
+	<bitset>
+	<string>
+	<iostream>
+
+1648471022 c:\users\balth\c++\chesconstest1\chess2\include\initboard.h
+	<bitset>
+	<string>
+
+1657032571 source:c:\users\balth\c++\chesconstest1\chess2\src\legalmoves.cpp
+	"LegalMoves.h"
+	"coutBoard.h"
+	"BitwiseFunction.h"
+	<vector>
+	<bitset>
+	<string>
+	<iostream>
+	<unistd.h>
+
+1657032609 c:\users\balth\c++\chesconstest1\chess2\include\legalmoves.h
+	<vector>
+	<bitset>
+
+1651915427 source:c:\users\balth\c++\chesconstest1\chess2\src\makemove.cpp
+	"MakeMove.h"
+	"coutBoard.h"
+	<iostream>
+	<unistd.h>
+	<vector>
+
+1651912155 c:\users\balth\c++\chesconstest1\chess2\include\makemove.h
+	<vector>
+
+1651916161 c:\users\balth\c++\chesconstest1\chess2\include\game.h
+
+1657041544 source:c:\users\balth\c++\chesconstest1\chess2\src\game.cpp
+	"Game.h"
+	<iostream>
+	<bitset>
+	<string>
+	<vector>
+	<limits>
+	<unistd.h>
+	<unordered_map>
+	"coutBoard.h"
+	"initBoard.h"
+	"LegalMoves.h"
+	"MakeMove.h"
+	"ChoseMove.h"
+	"SqNameToNb.h"
+	"BitwiseFunction.h"
+
+1651603367 source:c:\users\balth\c++\chesconstest1\chess2\src\eval.cpp
+	"Eval.h"
+	"BitwiseFunction.h"
+	"Constants.h"
+	<bitset>
+	<limits>
+
+1649669036 c:\users\balth\c++\chesconstest1\chess2\include\eval.h
+
+1651911015 c:\users\balth\c++\chesconstest1\chess2\include\bitwisefunction.h
+	<vector>
+
+1651911002 source:c:\users\balth\c++\chesconstest1\chess2\src\bitwisefunction.cpp
+	"BitwiseFunction.h"
+	<bitset>
+	<iostream>
+	<string>
+	"coutBoard.h"
+
+1657042095 source:c:\users\balth\c++\chesconstest1\chess2\src\chosemove.cpp
+	"ChoseMove.h"
+	"Eval.h"
+	"MakeMove.h"
+	"LegalMoves.h"
+	"coutBoard.h"
+	"BitwiseFunction.h"
+	"initBoard.h"
+	<unistd.h>
+	<limits>
+	<iostream>
+	<vector>
+	<unordered_map>
+
+1657028870 c:\users\balth\c++\chesconstest1\chess2\include\chosemove.h
+
+1649708378 source:c:\users\balth\c++\chesconstest1\chess2\src\constants.cpp
+
+1650975314 c:\users\balth\c++\chesconstest1\chess2\include\constants.h
+	<limits>
+	<bitset>
+
+1651066255 source:c:\users\balth\c++\chesconstest1\chess2\src\sqnametonb.cpp
+	"SqNameToNb.h"
+	<iostream>
+	<string>
+
+1651065771 c:\users\balth\c++\chesconstest1\chess2\include\sqnametonb.h
+	<string>
+
+1651527835 source:c:\users\balth\c++\chesconstest1\chess2\src\global.cpp
+	"Global.h"
+	<unordered_map>
+
+1651527826 c:\users\balth\c++\chesconstest1\chess2\include\global.h
+	<unordered_map>
+
