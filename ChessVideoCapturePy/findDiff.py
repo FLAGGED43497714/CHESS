@@ -1,9 +1,6 @@
-from cv2 import LineSegmentDetector
 import numpy as np
-import cv2
 import pyautogui
 import time
-from sympy import yn 
    
 print("starting")
 
@@ -59,6 +56,7 @@ while True :
                         # filtre = [ligne, colonne]
             
             if (len(res) == 2 ) :
+                found = True
                 break
         
     
@@ -87,39 +85,39 @@ while True :
             yNum = 56 - 8*((y-333)//83) 
             square2 = xNum + yNum
 
+            print(square1, square2)
             
+            # pyautogui.keyDown('alt')
+            # time.sleep(.3)
+            # pyautogui.press('tab')
+            # time.sleep(.3)
+            # pyautogui.keyUp('alt')
 
-            pyautogui.keyDown('alt')
-            time.sleep(.3)
-            pyautogui.press('tab')
-            time.sleep(.3)
-            pyautogui.keyUp('alt')
-
-            time.sleep(1.5)
-            pyautogui.keyDown('del')
-            time.sleep(0.3)
-            pyautogui.keyDown('del')
-            time.sleep(0.3)
-            pyautogui.typewrite(str(square1))
-            time.sleep(0.3)
-            pyautogui.keyDown('enter')
-            time.sleep(0.3)
-            pyautogui.typewrite(str(square2))
-            time.sleep(0.3)
-            pyautogui.keyDown('enter')
-            time.sleep(1)
-            pyautogui.keyDown('del')
-            time.sleep(0.3)
-            pyautogui.keyDown('del')
-            time.sleep(0.3)
-            pyautogui.typewrite(str(square2))
-            time.sleep(0.3)
-            pyautogui.keyDown('enter')
-            time.sleep(0.3)
-            pyautogui.typewrite(str(square1))
-            time.sleep(0.3)
-            pyautogui.keyDown('enter')
-            time.sleep(0.3)
+            # time.sleep(1.5)
+            # pyautogui.keyDown('delete')
+            # time.sleep(0.3)
+            # pyautogui.keyDown('delete')
+            # time.sleep(0.3)
+            # pyautogui.typewrite(str(square1))
+            # time.sleep(0.3)
+            # pyautogui.keyDown('enter')
+            # time.sleep(0.3)
+            # pyautogui.typewrite(str(square2))
+            # time.sleep(0.3)
+            # pyautogui.keyDown('enter')
+            # time.sleep(1)
+            # pyautogui.keyDown('delete')
+            # time.sleep(0.3)
+            # pyautogui.keyDown('delete')
+            # time.sleep(0.3)
+            # pyautogui.typewrite(str(square2))
+            # time.sleep(0.3)
+            # pyautogui.keyDown('enter')
+            # time.sleep(0.3)
+            # pyautogui.typewrite(str(square1))
+            # time.sleep(0.3)
+            # pyautogui.keyDown('enter')
+            # time.sleep(0.3)
 
 
             # print(xNum)

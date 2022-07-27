@@ -1,7 +1,5 @@
-import win32api
-import win32con
-import time
+import numpy as np
 
+a = np.array([10])
 
-win32api.SetCursorPos((451,256))
-
+print(a)
